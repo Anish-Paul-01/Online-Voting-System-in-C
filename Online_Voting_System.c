@@ -25,7 +25,7 @@ void add_candidate(int n, struct OVS *p)
     for (int i = 0; i < n; i++)
     {
         printf("Write Your First Name: ");
-        scanf("%s", (p + i)->Cand_fName); 
+        scanf("%s", (p + i)->Cand_fName);
         printf("Write Your Last Name: ");
         scanf("%s", (p + i)->Cand_LName);
         printf("Write Party Name: ");
@@ -92,6 +92,7 @@ int main()
     int n;
     printf("How Many Candidates Will File Nomination: ");
     scanf("%d", &n);
+    printf("Enter '0' for ending the Vote \n");
 
     if (n > 100)
     {
