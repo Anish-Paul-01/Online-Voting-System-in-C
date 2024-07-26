@@ -35,7 +35,7 @@ To get started with the Online Voting System , follow these steps:
 
 1. **Compile the program**:
     ```bash
-       gcc Online-Voting-System.c -o voting_system
+    gcc Online-Voting-System.c -o voting_system
 2. **Run the executable**:
     ```bash
     ./voting_system
